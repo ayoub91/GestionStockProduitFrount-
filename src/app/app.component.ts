@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  showSidebarhide : boolean = false;
+    
+
+  onShowSideBarChange(showhidesideBar){
+  this.showSidebarhide= showhidesideBar;
+  }
 }
